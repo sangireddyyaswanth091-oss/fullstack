@@ -1,0 +1,6 @@
+class Config:
+    SECRET_KEY = 'dev_secret_key'
+   # SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:Viswasanju21!@localhost/student_db'
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
+    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:password@localhost/dbname'
+    SQLALCHEMY_DATABASE_URI = 'sqlite:///students.db'
